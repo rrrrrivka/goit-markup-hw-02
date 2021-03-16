@@ -77,9 +77,7 @@ ul {
 .feature-list .title {
     color: var(--title-text-color);
 }
-.feature-list .text {
-    color: var(--primary-text-color);
-}
+
 
 /* Чем мы занимаемся */
 
@@ -89,9 +87,6 @@ ul {
 }
 .section-name {
     color: var(--title-text-color);
-}
-.section-profession {
-    color: var(--primary-text-color);
 }
 
 /* Футер */
