@@ -20,7 +20,10 @@ body {
 .list {
     list-style: none;
 }
-
+.link {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Шапка */
 .logo {
@@ -30,7 +33,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
 }
 .logo-accent {
     color: var(--accent-color);
@@ -44,7 +46,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -57,7 +58,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .contact-nav a:hover,
 .contact-nav a:focus {
@@ -158,7 +158,6 @@ line-height: 1.18;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
 }
 .fotter-address {
     color: var(--primary-bg-color);
@@ -169,7 +168,6 @@ line-height: 1.18;
     color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
-    text-decoration: none;
 }
 
 /* Стили для portfolio.html */
@@ -191,9 +189,7 @@ line-height: 1.18;
     cursor: pointer;
 }
 /* Секция карточек */
-.section-cards a {
-    text-decoration: none;
-}
+
 .section-names {
     color: var(--title-text-color);
 
