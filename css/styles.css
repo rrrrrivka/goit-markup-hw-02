@@ -56,6 +56,9 @@ ul {
     background-color: var(--accent-color);
     cursor: pointer;
 }
+.button:hover {
+    background-color: #188CE8;
+}
 
 /* Секция */
 
