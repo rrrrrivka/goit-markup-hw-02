@@ -1,0 +1,89 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #fff;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+ul {
+    list-style: none;
+}
+
+/* Шапка */
+.logo {
+    color: #000;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Стилизация навигации */
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.contact-nav a {
+    color: var(--primary-text-color);
+}
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+    color: var(--primary-bg-color);
+}
+
+/* Кнопка */
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+/* Секция */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Особенности */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+.feature-list .text {
+    color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Команда */
+.section-name {
+    color: var(--title-text-color);
+}
+.section-profession {
+    color: var(--primary-text-color);
+}
+
+/* Футер */
+.fotter-logo {
+    color: var(--primary-bg-color);
+}
+.fotter-address {
+    color: var(--primary-bg-color);
+}
+.fotter-contact a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
