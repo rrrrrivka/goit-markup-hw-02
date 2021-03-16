@@ -10,21 +10,23 @@
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.70;
 }
-ul {
+
+.list {
     list-style: none;
 }
+
 
 /* Шапка */
 .logo {
     color: #000;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -152,7 +154,7 @@ line-height: 1.18;
 .fotter-logo {
     color: var(--primary-bg-color);
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
