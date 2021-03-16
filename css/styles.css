@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --primary-bg-color: #fff;
     --bg-dark: #2F303A;
+    --bg-bright: #F5F4FA;
 }
 
 body {
@@ -57,7 +58,7 @@ ul {
     cursor: pointer;
 }
 .button:hover {
-    background-color: #188CE8;
+    background-color: var(--accent-color);
 }
 
 /* Секция */
@@ -86,7 +87,7 @@ ul {
 
 /* Команда */
 .section-bg {
-    background-color: #F5F4FA;
+    background-color: var(--bg-bright);
 }
 .section-name {
     color: var(--title-text-color);
@@ -106,3 +107,16 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* Стили для portfolio.html */
+/* Секция кнопок */
+.button-second {
+    background-color: var(--bg-bright);
+    color: var(--title-text-color);
+    cursor: pointer;
+}
+.button-second:hover,
+.button-second:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+    cursor: pointer;
+}
