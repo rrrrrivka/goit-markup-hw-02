@@ -3,6 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #fff;
+    --bg-dark: #2F303A;
 }
 
 body {
@@ -42,6 +43,9 @@ ul {
 }
 
 /* Герой */
+.hero-bg {
+    background-color: var(--bg-dark);
+}
 .hero-title {
     color: var(--primary-bg-color);
 }
@@ -80,6 +84,9 @@ ul {
 /* Чем мы занимаемся */
 
 /* Команда */
+.section-bg {
+    background-color: #F5F4FA;
+}
 .section-name {
     color: var(--title-text-color);
 }
@@ -88,6 +95,9 @@ ul {
 }
 
 /* Футер */
+.fotter-bg {
+    background-color: var(--bg-dark);
+}
 .fotter-logo {
     color: var(--primary-bg-color);
 }
