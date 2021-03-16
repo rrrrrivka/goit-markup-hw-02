@@ -50,6 +50,7 @@ ul {
 .button {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /* Секция */
@@ -59,6 +60,16 @@ ul {
 }
 
 /* Особенности */
+.visually-hidden {
+    position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 .feature-list .title {
     color: var(--title-text-color);
 }
