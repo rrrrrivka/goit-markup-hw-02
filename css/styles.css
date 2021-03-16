@@ -88,8 +88,8 @@ body {
     background-color: var(--accent-color);
     cursor: pointer;
 
-    font-family: inherit;
-    font-weight: 500;
+
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -129,7 +129,6 @@ body {
     text-transform: uppercase;
 }
 
-/* Чем мы занимаемся */
 
 /* Команда */
 .section-bg {
@@ -177,7 +176,6 @@ line-height: 1.18;
     color: var(--title-text-color);
     cursor: pointer;
 
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
